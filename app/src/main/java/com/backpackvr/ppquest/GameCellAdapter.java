@@ -72,6 +72,9 @@ public class GameCellAdapter extends RecyclerView.Adapter<GameCellAdapter.MyView
                 @Override
                 public boolean onHover(View v, MotionEvent ev) {
                     int position = getAdapterPosition();
+                    if (position == RecyclerView.NO_POSITION) {
+                        return false;
+                    }
                     int screenshotsSize = mDataset.get(position).images.size();
 
                     infoOverlay.setVisibility(View.VISIBLE);

@@ -388,8 +388,17 @@ public class MainActivity extends FragmentActivity {
                     if (cursor.getInt(cursor.getColumnIndex(DownloadManager.COLUMN_STATUS)) == DownloadManager.STATUS_SUCCESSFUL) {
                         downloading = false;
                         Log.i(TAG, "finished downloading");
-                        debugText.setText("Download complete : " + fileName);
-                        setProgress(0f);
+                        runOnUiThread(new Runnable() {
+
+                            @Override
+                            public void run() {
+
+                                debugText.setText("Download complete : " + fileName);
+                                setProgress(0f);
+
+                            }
+                        });
+
 
 
                         installAPK(gameId, fileName);
