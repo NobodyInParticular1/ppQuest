@@ -59,52 +59,51 @@
 32-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:24:9-41
 33        android:roundIcon="@mipmap/ic_launcher_round"
 33-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:25:9-54
-34        android:testOnly="true"
-35        android:theme="@style/Theme.MyApplication"
-35-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:26:9-51
-36        android:usesCleartextTraffic="true" >
-36-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:27:9-44
-37        <activity
-37-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:28:9-38:20
-38            android:name="com.backpackvr.ppquest.MainActivity"
-38-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:29:13-63
-39            android:configChanges="density|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
-39-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:30:13-122
-40            android:hardwareAccelerated="true"
-40-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:31:13-47
-41            android:resizeableActivity="true"
-41-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:32:13-46
-42            android:screenOrientation="landscape" >
-42-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:33:13-50
-43            <intent-filter android:autoVerify="true" >
-43-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:13-37:25
-43-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:28-53
-44                <action android:name="android.intent.action.MAIN" />
-44-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:17-69
-44-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:17-77
-46-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:27-74
-47            </intent-filter>
-48        </activity>
-49
-50        <provider
-51            android:name="androidx.core.content.FileProvider"
-51-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:40:13-62
-52            android:authorities="com.backpackvr.ppquest"
-52-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:41:13-51
-53            android:exported="false"
-53-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:42:13-37
-54            android:grantUriPermissions="true" >
-54-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:43:13-47
-55            <meta-data
-55-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:44:13-46:58
-56                android:name="android.support.FILE_PROVIDER_PATHS"
-56-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:45:17-67
-57                android:resource="@xml/provider_paths" />
-57-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:46:17-55
-58        </provider>
-59    </application>
-60
-61</manifest>
+34        android:theme="@style/Theme.MyApplication"
+34-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:26:9-51
+35        android:usesCleartextTraffic="true" >
+35-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:27:9-44
+36        <activity
+36-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:28:9-38:20
+37            android:name="com.backpackvr.ppquest.MainActivity"
+37-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:29:13-63
+38            android:configChanges="density|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+38-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:30:13-122
+39            android:hardwareAccelerated="true"
+39-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:31:13-47
+40            android:resizeableActivity="true"
+40-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:32:13-46
+41            android:screenOrientation="landscape" >
+41-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:33:13-50
+42            <intent-filter android:autoVerify="true" >
+42-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:13-37:25
+42-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:28-53
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:17-69
+43-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:17-77
+45-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+50            android:name="androidx.core.content.FileProvider"
+50-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:40:13-62
+51            android:authorities="com.backpackvr.ppquest"
+51-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:41:13-51
+52            android:exported="false"
+52-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:42:13-37
+53            android:grantUriPermissions="true" >
+53-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:43:13-47
+54            <meta-data
+54-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:44:13-46:58
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:45:17-67
+56                android:resource="@xml/provider_paths" />
+56-->/Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:46:17-55
+57        </provider>
+58    </application>
+59
+60</manifest>
