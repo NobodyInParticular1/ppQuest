@@ -161,7 +161,7 @@ public class BrowserFragment extends Fragment {
     public void BuildWebview(View view) {
 
         webView = (WebView) view.findViewById(R.id.webView);
-        webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
 
