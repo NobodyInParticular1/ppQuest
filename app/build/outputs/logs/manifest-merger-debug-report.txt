@@ -1,0 +1,267 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:grantUriPermissions
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:43:13-47
+	android:authorities
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:41:13-51
+	android:exported
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:40:13-62
+manifest
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9426243830e0bf0ac48c96d230a3098a/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dffddd3201db61571ab02fe2f11f3710/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/timur/.gradle/caches/transforms-2/files-2.1/5594e05b139a0914634dbc9e39219762/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/timur/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3fa7ae67d7e7630094db57a6935fe885/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:5:5-10:40
+	android:largeScreens
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:7:9-36
+	android:smallScreens
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:9:9-36
+	android:normalScreens
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:8:9-37
+	android:xlargeScreens
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:10:9-37
+	android:anyDensity
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:6:9-34
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:12:22-80
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:15:22-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:17:22-70
+application
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:19:5-48:19
+MERGED from [com.android.volley:volley:1.1.1] /Users/timur/.gradle/caches/transforms-2/files-2.1/5594e05b139a0914634dbc9e39219762/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/timur/.gradle/caches/transforms-2/files-2.1/5594e05b139a0914634dbc9e39219762/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/timur/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/timur/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:21:9-41
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:26:9-51
+	android:isGame
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:23:9-30
+	android:usesCleartextTraffic
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:27:9-44
+activity#com.backpackvr.ppquest.MainActivity
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:28:9-38:20
+	android:screenOrientation
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:33:13-50
+	android:hardwareAccelerated
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:31:13-47
+	android:resizeableActivity
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:32:13-46
+	android:configChanges
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:30:13-122
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:29:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:13-37:25
+	android:autoVerify
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:34:28-53
+action#android.intent.action.MAIN
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9426243830e0bf0ac48c96d230a3098a/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9426243830e0bf0ac48c96d230a3098a/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dffddd3201db61571ab02fe2f11f3710/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dffddd3201db61571ab02fe2f11f3710/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/timur/.gradle/caches/transforms-2/files-2.1/5594e05b139a0914634dbc9e39219762/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/timur/.gradle/caches/transforms-2/files-2.1/5594e05b139a0914634dbc9e39219762/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.material:material:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/timur/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/timur/.gradle/caches/transforms-2/files-2.1/fede1f66cd395620f31eb504f47da494/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3fa7ae67d7e7630094db57a6935fe885/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3fa7ae67d7e7630094db57a6935fe885/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/935c1eb103e362446c63f75dbc889f07/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/7b541f4196cf846f7dd467165838e072/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5b60f36a8799dbd1aa3cf6f44e4b9152/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/eb25aa6fb92793269536cebf4ca0a993/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/timur/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:44:13-46:58
+	android:resource
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:46:17-55
+	android:name
+		ADDED from /Users/timur/AndroidStudioProjects/++Quest/app/src/main/AndroidManifest.xml:45:17-67

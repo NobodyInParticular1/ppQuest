@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedbg"
+    android:backgroundTint="#101010"
+    android:focusable="true"
+    tools:context=".MainActivity">
+
+
+    <!--
+    <TextView
+        android:id="@+id/brightnessText"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center_vertical"
+        android:text="-1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFree" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="116dp"
+        android:foregroundTint="#8E7A7A"
+        android:max="255"
+        android:min="0"
+        android:progress="255"
+        android:progressTint="#989898"
+        android:thumbTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/brightnessText"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+
+    <LinearLayout
+        android:id="@+id/buttonGroupExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/buttonExit"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_exit" />
+
+        <TextView
+            android:id="@+id/tooltipExitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="Exit"
+            android:textColor="#000000"
+            android:translationX="-10dp"
+            android:background="@drawable/roundedbg4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonGroupGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/buttonGrid"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_grid"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tooltipGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundedbg4"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="Apps"
+            android:textColor="#000000"
+            android:translationX="-10dp" />
+
+    </LinearLayout>
+
+<!--
+    <LinearLayout
+        android:id="@+id/buttonGroupSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroupGrid">
+
+        <ImageButton
+            android:id="@+id/buttonSearch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_search"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCharts" />
+
+        <TextView
+            android:id="@+id/tooltipSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundedbg4"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="Search"
+            android:textColor="#000000"
+            android:translationX="-10dp" />
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/buttonGroupWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroupGrid">
+
+        <ImageButton
+            android:id="@+id/buttonWeb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_web"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCharts" />
+
+        <TextView
+            android:id="@+id/tooltipWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundedbg4"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="Web"
+            android:textColor="#000000"
+            android:translationX="-10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonGroupFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroupWeb">
+
+        <ImageButton
+            android:id="@+id/buttonFiles"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_filesystem"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSearch" />
+
+
+        <TextView
+            android:id="@+id/tooltipFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundedbg4"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="Files"
+            android:textColor="#000000"
+            android:translationX="-10dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/roundedbgtop"
+        android:backgroundTint="#050505"
+        >
+
+        <TextView
+            android:id="@+id/textDebug"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="27dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/maincontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
